@@ -56,7 +56,7 @@ while True:
     
     cv2.imshow('Drowsiness Detection', Frame) #Naming the window
 
-    if cv2.waitKey(1) & 0xFF == ord('q'): #providing key is terminate the code
+    if cv2.waitKey(1) & 0xFF == ord('q'): #Providing key is terminate the code
         break
 
 
